@@ -751,7 +751,7 @@ type: "F",}
 const RestaurentCard = (props) =>{
 
   const {cloudinaryImageId,name,cuisines,avgRating,sla} = props.resData
-  const cloudinaryUrl = 'https:media-assets.swiggy.com/swiggy/image/upload/'
+  const cloudinaryUrl = 'https://media-assets.swiggy.com/swiggy/image/upload/'
 return(
   <div className='res-card'>
     <img  className= 'res-logo' alt='image' src= {cloudinaryUrl + cloudinaryImageId}></img>
